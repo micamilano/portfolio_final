@@ -1,0 +1,9 @@
+body> .container-fluid{
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.container-lg{
+    height: auto;
+    margin: 0 5% ;
+}
