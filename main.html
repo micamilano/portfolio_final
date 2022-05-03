@@ -53,16 +53,23 @@
     <div class="container-fluid" id="home">
         <div class="container-lg">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-auto">
-                        <h1>Hello, I'm Mica</h1>
-                        <h2>GIS Data Analytics</h2>
-                        <p>An enthusiastic young woman, a geography major, interested in data and spatial analysis</p>
+                <div class="row align-items-center">
+                    <div class="col-sm-8">
+                        <h1 class="display-1">Hello, I'm Mica</h1>
+                        <h2 class="h2">GIS Data Analytics</h2>
+                        <p class="lead">An enthusiastic young woman, a geography major, interested in data and spatial
+                            analysis</p>
                         <button type="button" class="btn btn-dark active" data-bs-toggle="button" autocomplete="off"
-                            aria-pressed="true">Contact me</button>
+                            aria-pressed="true"><a href="#contact" class="text-reset">Contact me</a></button>
+                        <button type="button" class="btn btn-lg btn-dark" data-bs-toggle="popover" title="Popover title"
+                            data-bs-content="Don't forget to follow me! =D">Click me!</button>
+                        <button type="button" class="btn btn-secondary" data-bs-container="body"
+                            data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                            Popover on top
+                        </button>
                     </div>
-                    <div class="col">
-                        Column
+                    <div class="col-sm-4">
+                        <div><iframe src="https://embed.lottiefiles.com/animation/6843"></iframe></div>
                     </div>
                 </div>
             </div>
@@ -79,14 +86,17 @@
                         </figure>
                     </div>
                     <div class="col-sm-6">
-                        <h2> About me</h2>
-                        <p>As a student of the Lic. in Geography I have carried out research, publications,
+                        <h2 class="display-3">About me</h2>
+                        <p class="lead">As a student of the Lic. in Geography I have carried out research, publications,
                             presentations and internships, for which I highlight my written and oral communication
                             skills.
-                        <p> I have specialized in the use of GIS and software for statistics, as well as remote sensing
+                        <p class="lead"> I have specialized in the use of GIS and software for statistics, as well as
+                            remote sensing
                             and webmapping.</p>
                         <button type="button" class="btn btn-dark active" data-bs-toggle="button" autocomplete="off"
-                            aria-pressed="true">Follow me on LinkedIn</button>
+                            aria-pressed="true"><a target="blanck" class="text-reset"
+                                href="https://www.linkedin.com/in/micaela-milano-067706128/">Follow me on LinkedIn</a>
+                        </button>
                         </p>
                     </div>
                 </div>
@@ -94,51 +104,164 @@
         </div>
     </div>
     <div class="container-fluid" id="portfolio">
-        <div class="container-lg  shadow p-3 mb-5 bg-body rounded">
-            <h2>Portfolio</h2>
+        <div class="container-lg shadow p-3 mb-5 bg-body rounded">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <h3>Profesional Foundation to Transport</h3>
-                        <p>Thi web site to FPT (Fundacion Profesional para el Transporte) join all the necesary
+                    <h2 class="display-3">Portfolio</h2>
+                    <div class="col-sm-6 text-wrap">
+                        <h3 class="h2">Profesional Foundation to Transport</h3>
+                        <p class="lead">Thi web site to FPT (Fundacion Profesional para el Transporte) join all the
+                            necesary
                             information to the transport chofer needs. It was did in collaboration with LAND Studio</p>
                         <button type="button" class="btn btn-dark active" data-bs-toggle="button" autocomplete="off"
                             aria-pressed="true">View</button>
                     </div>
-                    <div class="col-sm-6">Column1</div>
+                    <div class="col-sm-6 align-self-center">
+                        <img src="./files/fpt.png" class="img-fluid" alt="portfolio">
+                    </div>
                 </div>
-
                 <div class="row">
-                    <div class="col-sm-6">Column1</div>
-
-                    <div class="col-sm-6">
-                        <h3>Buenos Aires crime and scolarship density</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt dicta doloremque
+                    <div class="col-sm-6 align-self-center">
+                        <img src="./files/delitos_density.jpg" class="img-fluid" alt="portfolio">
+                    </div>
+                    <div class="col-sm-6 text-wrap">
+                        <br>
+                        <h3 class="h2">Buenos Aires crime and scolarship density</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt dicta
+                            doloremque
                             commodi dolor ea nobis cum alias, eum excepturi expedita cumque perspiciatis quo inventore
                             earum odio accusantium repudiandae quod.</p>
                         <button type="button" class="btn btn-dark active" data-bs-toggle="button" autocomplete="off"
                             aria-pressed="true">View</button>
-                        <div class="col">Column2</div>
-
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container-lg shadow p-3 mb-5 bg-body rounded">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3">Experience</h2>
+                    <div class="col-sm-6">
+                        <p>Apr 2022</p>
+                        <h4>Fellow in Geographic Information Systems</h4>
+                        <h6>Catastro Direction - ATER</h6>
+                        <br>
+                        <p>Mar 2021</p>
+                        <h4>Research Intern</h4>
+                        <h6>CECOAL - CONICET</h6>
+                        <br>
+                        <p>Mar 2020 - Mar 2022</p>
+                        <h4>Web Developer</h4>
+                        <h6>Freelancer in LAND Studio</h6>
+                        <br>
+
+                    </div>
+                    <div class="col-sm-6 al">
+                        <p class="lead">From the experience in other jobs I have learned to work as a team, meet
+                            objectives, reinforce my desire to grow, and prove my responsibility and commitment.</p>
+                        <br>
+                        <button type="button" class="btn btn-dark active" data-bs-toggle="button" autocomplete="off"
+                            aria-pressed="true"><a target="blanck" class="text-reset"
+                                href="https://www.linkedin.com/in/micaela-milano-067706128/">Follow me on LinkedIn</a>
+                        </button>
+                        <button type="button" class="btn btn-outline-dark"><a target="blanck" class="text-reset"
+                                href="./files/CV 2022.pdf">Download my resume</a></button>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--         <div class="container-lg shadow p-3 mb-5 bg-body rounded">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3">Education</h2>
+                    <div class="col-sm-5 align-self-center">
+                        <br>
+                        <figure>
+                            <blockquote class="blockquote">
+                              <p>A well-known quote, contained in a blockquote element.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                              Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                          </figure>
+                        <br>
+                    </div>
+                    <div class="col-sm-7">
+                        <p class="text-end">2022</p>
+                        <h3 class="text-end">Diploma in Applied Geomatics</h3>
+                        <h6 class="text-end">Universidad Nacional de Córdoba - CONAE - Instituto Gullich</h6>
+                        <br>
+                        <p class="text-end">2021-2025
+                        </p>
+                        <h3 class="text-end">Bachelor in Geography</h3>
+                        <h6 class="text-end">Universidad Autónoma de Entre Ríos</h6>
+                        <br>
+                        <p class="text-end">2021</p>
+                        <h3 class="text-end">Diploma in Web Programming</h3>
+                        <h6 class="text-end">Universidad Tecnológica Nacional</h6>
+                        <br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+ -->
+
+        <div class="container-lg shadow p-3 mb-5 bg-body rounded">
+            <div class="container">
+                <div class="row">
+                    <h2 class="display-3">Education</h2>
+                    <div class="col-sm-7">
+                        <p>2022</p>
+                        <h3>Diploma in Applied Geomatics</h3>
+                        <h6>Universidad Nacional de Córdoba - CONAE - Instituto Gullich</h6>
+                        <br>
+                        <p>2021-2025
+                        </p>
+                        <h3>Bachelor in Geography</h3>
+                        <h6>Universidad Autónoma de Entre Ríos</h6>
+                        <br>
+                        <p>2021</p>
+                        <h3>Diploma in Web Programming</h3>
+                        <h6>Universidad Tecnológica Nacional</h6>
+                        <br>
+                    </div>
+                    <div class="col-sm-5 align-self-center">
+                        <br>
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </figcaption>
+                        </figure>
+                        <br>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
     </div>
     <div class="container-fluid" id="contact">
         <div class="container-lg  shadow p-3 mb-5 bg-body rounded">
-            <h2>Contact </h2>
             <div class="container">
                 <div class="row">
+                    <h2 class="display-3">Contact </h2>
                     <div class="col-sm-6">
 
                     </div>
                     <div class="col-sm-6">
-                        <P>Email</P>
-                        <p><a href="mailto:micaa.milano@gmail.com">micaa.milano@gmail.com</a></p>
-                        <p>From</p>
-                        <p>Argentina</p>
+                        <P class="h4">Email</P>
+                        <p class="lead"><a class="text-reset"
+                                href="mailto:micaa.milano@gmail.com">micaa.milano@gmail.com</a></p>
+                        <p class="h4">From</p>
+                        <p class="lead">Argentina</p>
                         <button type="button" class="btn btn-dark active" data-bs-toggle="button"
                             aria-pressed="true">Send me an email</button>
                     </div>
@@ -147,6 +270,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

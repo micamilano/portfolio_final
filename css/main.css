@@ -4,6 +4,10 @@ body> .container-fluid{
 }
 
 .container-lg{
-    height: auto;
     margin: 0 5% ;
 }
+
+#home > div > div > .row{
+min-height: 90vh;
+}
+

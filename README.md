@@ -15,5 +15,5 @@ Portfolio
   -experiencia laboral
 contact me
 
-To do this I used boostrap, priorizando mobile first 
+To do this I used boostrap, priorizando mobile first, lottie
 
