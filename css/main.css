@@ -3,11 +3,11 @@ body> .container-fluid{
     min-height: 100vh;
 }
 
-.container-lg{
+/* .container-lg{
     margin: 0 5% ;
-}
+} */
 
-#home > div > div > .row{
+#home > div > .row{
 min-height: 90vh;
 }
 
