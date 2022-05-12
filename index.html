@@ -8,27 +8,30 @@
     <title>Mica's GIS Portfolio</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/reducido.css">
-
+       <link rel="stylesheet" href="./css/reducido.css">
+       
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;900&display=swap"
         rel="stylesheet">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--CSS Boostrap -->
-     <link rel="stylesheet" href="./sass/custom.css">
- 
+<!--     <link rel="stylesheet" href="./sass/custom.css">
+ -->
     <!-- Lootie -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
-<body data-bs-spy="scroll">
+<body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#"><strong>Mica</strong></a>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand text-secondary" href="#"><strong>Mica</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -48,39 +51,34 @@
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#contact">Contact</a>
                     </li>
-
+                </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid py-5" id="home">
+    <div class="container-fluid py-5 bg-success text-secondary" id="home">
         <div class="container">
             <div class="row d-flex align-items-stretch">
-                <div
-                    class="col-12 col-sm-6  d-flex flex-column bd-highlight justify-content-evenly justify-content-sm-center">
-                    <h1 class="display-2">Hello, I'm Mica</h1>
+                <div data-aos="fade-up" class="col-12 m-0 d-flex flex-column bd-highlight justify-content-center">
+                    <h1><strong>Hello, I'm Mica</strong></h1>
                     <h2 class="h2">GIS Data Analytics</h2>
                     <p class="lead">An enthusiastic young woman, a geography major, interested in data and spatial
                         analysis.</p>
-                    <div class="col-12">
-                        <button type="button" class="btn btn-lg btn-success active" data-bs-toggle="button"
-                            autocomplete="off" aria-pressed="true"><a href="#contact" class="text-reset">Contact
-                                me</a></button>
+                    <div>
+                        <button type="button" class="btn btn-lg btn-outline-secondary border-radius-lg"
+                            data-bs-toggle="button" autocomplete="off" aria-pressed="true"><a href="#contact"
+                                class="text-reset text-uppercase">Contact me</a></button>
                     </div>
-                </div>
-                <div class="col-12 col-sm-6   d-flex align-items-center justify-content-center">
-                    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_vztbnkel.json"
-                        background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay>
-                    </lottie-player>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+
 
     <!-- ABOUT -->
     <div class="container-fluid bg-secondary p-5" id="about">
-        <div class="container  shadow p-3 p-lg-5  bg-body rounded">
+        <div data-aos="zoom-in" class="container p-3 p-lg-5">
             <div class="row">
                 <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
                     <figure class="figure">
@@ -94,10 +92,11 @@
                         skills.
                     <p class="lead"> I have specialized in the use of GIS and software for statistics, as well as
                         remote sensing and webmapping.</p>
-                    <p class="lead">On the other hand, I am very interested in <strong class="bold">mobility, flows of people and transport.
-                        <strong class="bold"></p>
-                    <button type="button" class="btn btn-success active" data-bs-toggle="button" autocomplete="off"
-                        aria-pressed="true"><a target="blanck" class="text-reset"
+                    <p class="lead">On the other hand, I am very interested in <strong class="bold">mobility, flows of
+                            people and transport.
+                            <strong class="bold"></p>
+                    <button type="button" class="btn btn-success active border-radius-lg" data-bs-toggle="button"
+                        autocomplete="off" aria-pressed="true"><a target="blanck" class="text-reset text-uppercase"
                             href="https://www.linkedin.com/in/micaela-milano-067706128/">Follow me on LinkedIn</a>
                     </button>
                     </p>
@@ -107,139 +106,178 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="container-fluid bg-secondary p-5" id="portfolio">
-        <div class="container shadow p-3 mb-5 p-lg-5 bg-body rounded">
-            <h2 class="display-3">Portfolio</h2>
-            <div class="row py-3">
-                <div class="col-12 col-md-6 text-wrap">
-                    <h3 class="h2">Profesional Foundation to Transport</h3>
-                    <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
-                        necesary
-                        information to the transport chofer needs. It was did in collaboration with <a
-                            href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
-                                Studio</strong></a></p>
-                    <button type="button" class="btn btn-success active my-2" data-bs-toggle="button" autocomplete="off"
-                        aria-pressed="true"><a href="https://fpt.org.ar" target="_blank" class="text-reset">View</a></button>
+    <div class="container-fluid bg-success text-secondary p-sm-5" id="portfolio">
+        <div class="container p-3 mb-5 p-lg-5 ">
+            <h2><strong>Portfolio</strong></h2>
+            <div class="row">
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>Profesional Foundation to Transport</h3>
+                            <hr>
+                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                                necesary information to the transport chofer needs. It was did in collaboration with <a
+                                    href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
+                                        Studio</strong></a></p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
                 </div>
-                <div class="col-12 col-md-6 align-self-center">
-                    <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>Profesional Foundation to Transport</h3>
+                            <hr>
+                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                                necesary information to the transport chofer needs. It was did in collaboration with</p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/transacciones_baires.jpg" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>SUBE: transacciones BA</h3>
+                            <hr>
+                            <p class="lead">This is a personal projet in which I've been working because, as I said later, I'm so intereted in transport and displacement, particullary inside the city or urban areas.</p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://github.com/micamilano/SUBE" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
+                </div>
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/delitos_density.jpg" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>Buenos Aires crime and scolarship density</h3>
+                            <hr>
+                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                                necesary information to the transport chofer needs. It was did in collaboration with</p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://drive.google.com/file/d/190tg70t7Z0t21BVTZyV9sO1a9uL7AJDl/view?usp=sharing" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
+                </div>
+            </div>
+         <!--    <div class="row">
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>Profesional Foundation to Transport</h3>
+                            <hr>
+                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                                necesary information to the transport chofer needs. It was did in collaboration with <a
+                                    href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
+                                        Studio</strong></a></p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
+                </div>
+                <div class="col-12 col-md-6 text-wrap text-center">
+                    <div class="project">
+                        <div class="image-wrapper">
+                            <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
+                        </div>
+                            <h3>Profesional Foundation to Transport</h3>
+                            <hr>
+                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                                necesary information to the transport chofer needs. It was did in collaboration with <a
+                                    href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
+                                        Studio</strong></a></p>
+                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                    class="text-reset">View</a></button>
+                        </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
 
-            <div class="row py-3">
-                <div class="col-12 col-md-6 align-self-center">
-                    <img src="./files/portfolio/delitos_density.jpg" class="img-fluid" alt="portfolio">
-                </div>
-                <div class="col-12 col-md-6 text-wrap">
-                    <br>
-                    <h3 class="h2">Buenos Aires crime and scolarship density</h3>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt dicta
-                        doloremque
-                        commodi dolor ea nobis cum alias, eum excepturi expedita cumque perspiciatis quo inventore
-                        earum odio accusantium repudiandae quod.</p>
-                    <button type="button" class="btn btn-success active my-2" data-bs-toggle="button" autocomplete="off"
-                        aria-pressed="true"><a target="_blank"
-                            href="https://drive.google.com/file/d/190tg70t7Z0t21BVTZyV9sO1a9uL7AJDl/view?usp=sharing"
-                            class="text-reset">View</a></button>
-                </div>
+    <!-- EXPERIENCE -->
+    <div class="container-fluid p-5 p-lg-5 bg-info" id="experience">
+        <div data-aos="fade-up" data-aos-duration="3000" class="row">
+            <h2><strong>Experience</strong></h2>
+            <div class="col-12 col-sm-6">
+                <p>Apr 2022</p>
+                <h4>Fellow in Geographic Information Systems</h4>
+                <h6>Catastro Direction - ATER</h6>
+                <br>
+                <p>Mar 2021</p>
+                <h4>Research Intern</h4>
+                <h6>CECOAL - CONICET</h6>
+                <br>
+                <p>Mar 2020 - Mar 2022</p>
+                <h4>Web Developer</h4>
+                <h6>Freelancer in LAND Studio</h6>
+                <br>
 
             </div>
-
-            <div class="row py-3">
-                <div class="col-12 col-md-6 text-wrap">
-                    <br>
-                    <h3 class="h2">SUBE: transacciones BA</h3>
-                    <p class="lead">This is a personal projet in which I've been working because, as I said later, I'm
-                        so intereted in transport and displacement, particullary inside the city or urban areas.</p>
-                    <p class="lead">
-                        <a href="https://github.com/micamilano/SUBE" target="_blank"><strong class="bold">Here</strong></a> you can see
-                        the script and more details in my Github repository, or above and acces to the Markdown file I
-                        do as a brief or report.
-                    </p>
-                    <button type="button" class="btn btn-success active my-2" data-bs-toggle="button" autocomplete="off"
-                        aria-pressed="true"><a href="https://github.com/micamilano/SUBE" target="_blank"
-                            class="text-reset">View</a></button>
-                    <!-- ACA LINk A R MARKDOWN -->
-                </div>
-                <div class="col-12 col-md-6 align-self-center">
-                    <img src="./files/portfolio/SUBE.png" class="img-fluid" alt="portfolio">
-                </div>
+            <div class="col-12 col-sm-6">
+                <p class="lead">From the experience in other jobs I have learned to work as a team, meet
+                    objectives, reinforce my desire to grow, and prove my responsibility and commitment.</p>
+                <br>
+                <button type="button" class="btn btn-success active m-2" data-bs-toggle="button" autocomplete="off"
+                    aria-pressed="true"><a target="_blank" class="text-reset"
+                        href="https://www.linkedin.com/in/micaela-milano-067706128/">Follow me on LinkedIn</a>
+                </button>
+                <button type="button" class="btn btn-outline-success m-2"><a target="blanck" class="text-reset"
+                        href="./files/pdf/CV 2022.pdf">Download my resume</a></button>
+                </p>
             </div>
         </div>
+    </div>
 
-        <!-- EXPERIENCE -->
-        <div class="container shadow p-3 mb-5 p-lg-5  bg-body rounded">
-            <div class="row">
-                <h2 class="display-3">Experience</h2>
-                <div class="col-12 col-sm-6">
-                    <p>Apr 2022</p>
-                    <h4>Fellow in Geographic Information Systems</h4>
-                    <h6>Catastro Direction - ATER</h6>
-                    <br>
-                    <p>Mar 2021</p>
-                    <h4>Research Intern</h4>
-                    <h6>CECOAL - CONICET</h6>
-                    <br>
-                    <p>Mar 2020 - Mar 2022</p>
-                    <h4>Web Developer</h4>
-                    <h6>Freelancer in LAND Studio</h6>
-                    <br>
-
-                </div>
-                <div class="col-12 col-sm-6 al">
-                    <p class="lead">From the experience in other jobs I have learned to work as a team, meet
-                        objectives, reinforce my desire to grow, and prove my responsibility and commitment.</p>
-                    <br>
-                    <button type="button" class="btn btn-success active m-2" data-bs-toggle="button" autocomplete="off"
-                        aria-pressed="true"><a target="_blank" class="text-reset"
-                            href="https://www.linkedin.com/in/micaela-milano-067706128/">Follow me on LinkedIn</a>
-                    </button>
-                    <button type="button" class="btn btn-outline-success m-2"><a target="blanck" class="text-reset"
-                            href="./files/pdf/CV 2022.pdf">Download my resume</a></button>
-                    </p>
-                </div>
+    <!-- EDUCATION -->
+    <div class="container-fluid p-5 p-lg-5">
+        <div data-aos="fade-up" data-aos-duration="3000" class="row">
+            <h2><strong>Education</strong></h2>
+            <div class="col-12 col-sm-7">
+                <p>2022</p>
+                <h3>Diploma in Applied Geomatics</h3>
+                <h6>Universidad Nacional de Córdoba - CONAE - Instituto Gullich</h6>
+                <br>
+                <p>2021-2025
+                </p>
+                <h3>Bachelor in Geography</h3>
+                <h6>Universidad Autónoma de Entre Ríos</h6>
+                <br>
+                <p>2021</p>
+                <h3>Diploma in Web Programming</h3>
+                <h6>Universidad Tecnológica Nacional</h6>
+                <br>
             </div>
-
-        </div>
-
-        <!-- EDUCATION -->
-        <div class="container shadow p-5 mb-5 p-lg-5 bg-body rounded">
-            <div class="row">
-                <h2 class="display-3">Education</h2>
-                <div class="col-12 col-sm-7">
-                    <p>2022</p>
-                    <h3>Diploma in Applied Geomatics</h3>
-                    <h6>Universidad Nacional de Córdoba - CONAE - Instituto Gullich</h6>
-                    <br>
-                    <p>2021-2025
-                    </p>
-                    <h3>Bachelor in Geography</h3>
-                    <h6>Universidad Autónoma de Entre Ríos</h6>
-                    <br>
-                    <p>2021</p>
-                    <h3>Diploma in Web Programming</h3>
-                    <h6>Universidad Tecnológica Nacional</h6>
-                    <br>
-                </div>
-                <div class="col-12 col-sm-5 align-self-center">
-                    <br>
-                    <figure>
-                        <blockquote class="blockquote">
-                            <p>The most important thing in life is stop saying "i wish", and start saying "I wil"</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            Charles <cite title="Source Title">Dickens</cite>
-                        </figcaption>
-                    </figure>
-                    <br>
-                </div>
+            <div class="col-12 col-sm-5 align-self-center">
+                <br>
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>The most important thing in life is stop saying "i wish", and start saying "I wil"</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Charles <cite title="Source Title">Dickens</cite>
+                    </figcaption>
+                </figure>
+                <br>
             </div>
         </div>
     </div>
 
 
     <!-- CONTACT -->
-    <div class="container-fluid bg-secondary p-3" id="contact">
+    <!-- <div class="container-fluid bg-secondary p-3" id="contact">
         <div class="container shadow p-3 mb-5 p-lg-5 bg-body rounded">
             <div class="row">
                 <h2 class="display-3">Contact </h2>
@@ -250,9 +288,11 @@
 
                 <div class="col-12 col-sm-6">
                     <P class="h4"><strong>Social</strong></P>
-                    <p class="lead mx-3 my-3"><a class="text-reset" href="https://www.linkedin.com/in/micaela-milano-067706128/" target="_blank">LinkedIn</a>
+                    <p class="lead mx-3 my-3"><a class="text-reset"
+                            href="https://www.linkedin.com/in/micaela-milano-067706128/" target="_blank">LinkedIn</a>
                     </p>
-                    <p class="lead mx-3 my-3"><a class="text-reset" href="https://github.com/micamilano" target="_blank">GitHub</a>
+                    <p class="lead mx-3 my-3"><a class="text-reset" href="https://github.com/micamilano"
+                            target="_blank">GitHub</a>
                     </p>
                     <br>
                     <P class="h4 my-3"><strong>Email</strong></P>
@@ -265,7 +305,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- FOOTER -->
     <div class="container-fluid bg-success d-flex align-items-center" id="footer">
@@ -292,9 +332,12 @@
             background="transparent" speed="1" style="width: 100%; height: auto;" hover loop></lottie-player>
         </div> -->
 
-   <script src="./js/bootstrap.min.js"></script>
-   <script src="./js/popper.min.js"></script>
-
+       <script src="./js/bootstrap.min.js"></script>
+<!--     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ -->    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
