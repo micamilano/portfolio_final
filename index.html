@@ -8,8 +8,8 @@
     <title>Mica's GIS Portfolio</title>
 
     <!-- CSS -->
-       <link rel="stylesheet" href="./css/reducido.css">
-       
+    <!--        <link rel="stylesheet" href="./css/reducido.css">
+ -->
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!--CSS Boostrap -->
-<!--     <link rel="stylesheet" href="./sass/custom.css">
- -->
+    <link rel="stylesheet" href="./sass/custom.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
     <!-- Lootie -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
@@ -59,7 +63,8 @@
     <div class="container-fluid py-5 bg-success text-secondary" id="home">
         <div class="container">
             <div class="row d-flex align-items-stretch">
-                <div data-aos="fade-up" class="col-12 m-0 d-flex flex-column bd-highlight justify-content-center">
+                <div data-aos="fade-up" data-aos-duration="3000"
+                    class="col-12 m-0 d-flex flex-column bd-highlight justify-content-center">
                     <h1><strong>Hello, I'm Mica</strong></h1>
                     <h2 class="h2">GIS Data Analytics</h2>
                     <p class="lead">An enthusiastic young woman, a geography major, interested in data and spatial
@@ -74,11 +79,9 @@
         </div>
     </div>
 
-
-
     <!-- ABOUT -->
     <div class="container-fluid bg-secondary p-5" id="about">
-        <div data-aos="zoom-in" class="container p-3 p-lg-5">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="container p-3 p-lg-5">
             <div class="row">
                 <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
                     <figure class="figure">
@@ -86,7 +89,7 @@
                     </figure>
                 </div>
                 <div class="col-12 col-sm-6">
-                    <h2 class="display-3">About me</h2>
+                    <h2><strong>About me</strong></h2>
                     <p class="lead">As a student of the Lic. in Geography I have carried out research, publications,
                         presentations and internships, for which I highlight my written and oral communication
                         skills.
@@ -107,70 +110,73 @@
 
     <!-- PORTFOLIO -->
     <div class="container-fluid bg-success text-secondary p-sm-5" id="portfolio">
-        <div class="container p-3 mb-5 p-lg-5 ">
+        <div class="container p-3 mb-sm-5 p-lg-5 ">
             <h2><strong>Portfolio</strong></h2>
-            <div class="row">
-                <div class="col-12 col-md-6 text-wrap text-center">
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-12 col-md-6 text-wrap text-center mb-3">
                     <div class="project">
                         <div class="image-wrapper">
                             <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
                         </div>
-                            <h3>Profesional Foundation to Transport</h3>
-                            <hr>
-                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
-                                necesary information to the transport chofer needs. It was did in collaboration with <a
-                                    href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
-                                        Studio</strong></a></p>
-                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
-                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
-                                    class="text-reset">View</a></button>
-                        </div>
+                        <h3>Profesional Foundation to Transport</h3>
+                        <hr>
+                        <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                            necesary information to the transport chofer needs. It was did in collaboration with <a
+                                href="https://landstudio.tv" class="text-reset"><strong class="bold">LAND
+                                    Studio</strong></a></p>
+                        <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                class="text-reset">View</a></button>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 text-wrap text-center">
+                <div class="col-12 col-md-6 text-wrap text-center mb-3">
                     <div class="project">
                         <div class="image-wrapper">
                             <img src="./files/portfolio/fpt.png" class="img-fluid" alt="portfolio">
                         </div>
-                            <h3>Profesional Foundation to Transport</h3>
-                            <hr>
-                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
-                                necesary information to the transport chofer needs. It was did in collaboration with</p>
-                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
-                                autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
-                                    class="text-reset">View</a></button>
-                        </div>
+                        <h3>Profesional Foundation to Transport</h3>
+                        <hr>
+                        <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                            necesary information to the transport chofer needs. It was did in collaboration with</p>
+                        <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                                class="text-reset">View</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 text-wrap text-center">
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-12 col-md-6 text-wrap text-center mb-3">
                     <div class="project">
                         <div class="image-wrapper">
-                            <img src="./files/portfolio/transacciones_baires.jpg" class="img-fluid" alt="portfolio">
+                            <img src="./files/portfolio/SUBE.png" class="img-fluid" alt="portfolio">
                         </div>
-                            <h3>SUBE: transacciones BA</h3>
-                            <hr>
-                            <p class="lead">This is a personal projet in which I've been working because, as I said later, I'm so intereted in transport and displacement, particullary inside the city or urban areas.</p>
-                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
-                                autocomplete="off" aria-pressed="true"><a href="https://github.com/micamilano/SUBE" target="_blank"
-                                    class="text-reset">View</a></button>
-                        </div>
+                        <h3>SUBE: transacciones BA</h3>
+                        <hr>
+                        <p class="lead">This is a personal projet in which I've been working because, as I said later,
+                            I'm so intereted in transport and displacement, particullary inside the city or urban areas.
+                        </p>
+                        <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true"><a href="https://github.com/micamilano/SUBE"
+                                target="_blank" class="text-reset">View</a></button>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 text-wrap text-center">
+                <div class="col-12 col-md-6 text-wrap text-center mb-3">
                     <div class="project">
                         <div class="image-wrapper">
                             <img src="./files/portfolio/delitos_density.jpg" class="img-fluid" alt="portfolio">
                         </div>
-                            <h3>Buenos Aires crime and scolarship density</h3>
-                            <hr>
-                            <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
-                                necesary information to the transport chofer needs. It was did in collaboration with</p>
-                            <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
-                                autocomplete="off" aria-pressed="true"><a href="https://drive.google.com/file/d/190tg70t7Z0t21BVTZyV9sO1a9uL7AJDl/view?usp=sharing" target="_blank"
-                                    class="text-reset">View</a></button>
-                        </div>
+                        <h3>Buenos Aires crime and scolarship density</h3>
+                        <hr>
+                        <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
+                            necesary information to the transport chofer needs. It was did in collaboration with</p>
+                        <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
+                            autocomplete="off" aria-pressed="true"><a
+                                href="https://drive.google.com/file/d/190tg70t7Z0t21BVTZyV9sO1a9uL7AJDl/view?usp=sharing"
+                                target="_blank" class="text-reset">View</a></button>
+                    </div>
                 </div>
             </div>
-         <!--    <div class="row">
+            <!--    <div class="row" data-aos="fade-up">
                 <div class="col-12 col-md-6 text-wrap text-center">
                     <div class="project">
                         <div class="image-wrapper">
@@ -242,7 +248,7 @@
     </div>
 
     <!-- EDUCATION -->
-    <div class="container-fluid p-5 p-lg-5">
+    <div class="container-fluid p-5 p-lg-5 bg-info">
         <div data-aos="fade-up" data-aos-duration="3000" class="row">
             <h2><strong>Education</strong></h2>
             <div class="col-12 col-sm-7">
@@ -275,37 +281,30 @@
         </div>
     </div>
 
-
     <!-- CONTACT -->
-    <!-- <div class="container-fluid bg-secondary p-3" id="contact">
-        <div class="container shadow p-3 mb-5 p-lg-5 bg-body rounded">
-            <div class="row">
-                <h2 class="display-3">Contact </h2>
-                <div class="col-12 col-sm-6">
-                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_oi0ztgxd.json"
-                        background="#FFFFFF" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
-                </div>
+    <div class="container-fluid p-5 p-lg-5" id="contact">
+        <div data-aos="fade-up" data-aos-duration="3000" class="row text-center">
+            <h2><strong>Contact</strong></h2>
+            <div class="col-12">
+                <P class="h4"><strong>Social:</strong></P>
+                <p class="lead mx-3 my-3"><a class="text-reset"
+                        href="https://www.linkedin.com/in/micaela-milano-067706128/" target="_blank">LinkedIn</a>
+                </p>
+                <p class="lead mx-3 my-3"><a class="text-reset" href="https://github.com/micamilano"
+                        target="_blank">GitHub</a>
+                </p>
 
-                <div class="col-12 col-sm-6">
-                    <P class="h4"><strong>Social</strong></P>
-                    <p class="lead mx-3 my-3"><a class="text-reset"
-                            href="https://www.linkedin.com/in/micaela-milano-067706128/" target="_blank">LinkedIn</a>
-                    </p>
-                    <p class="lead mx-3 my-3"><a class="text-reset" href="https://github.com/micamilano"
-                            target="_blank">GitHub</a>
-                    </p>
-                    <br>
-                    <P class="h4 my-3"><strong>Email</strong></P>
-                    <p class="lead mx-3 my-3"><a class="text-reset"
-                            href="mailto:micaa.milano@gmail.com">micaa.milano@gmail.com</a>
-                    </p>
-                    <button type="button" class="btn btn-success active mx-3 my-3" data-bs-toggle="button"
-                        aria-pressed="true">Send
-                        me an email</button>
-                </div>
+                <P class="h4"><strong>Email:</strong></P>
+                <p class="lead mx-3 my-3"><a class="text-reset"
+                        href="mailto:micaa.milano@gmail.com">micaa.milano@gmail.com</a>
+                </p>
+                <button type="button" class="btn border-radius-lg btn-outline-success  my-1" data-bs-toggle="button"
+                    aria-pressed="true">Send
+                    me an email</button>
             </div>
         </div>
-    </div> -->
+    </div>
+
 
     <!-- FOOTER -->
     <div class="container-fluid bg-success d-flex align-items-center" id="footer">
@@ -332,11 +331,17 @@
             background="transparent" speed="1" style="width: 100%; height: auto;" hover loop></lottie-player>
         </div> -->
 
-       <script src="./js/bootstrap.min.js"></script>
-<!--     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- -->    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 2000,
+            wrap: false
+        })
     </script>
 </body>
 

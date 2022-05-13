@@ -34,3 +34,6 @@ I have specialized in the use of GIS and software for statistics, as well as rem
 <p>In other hand, I'm not a front-end developer so, to do this I decided to use <a target:"blank" href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Boostrap.</a> Which to modify the styles uses <a target:"blank" href="https://nodejs.org/es/">Node.JS</a> and in parallel <a target:"blank" href="https://sass-lang.com">Sass.</a></p>
 <p>To shrink <a target:"blank" href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Boostrap</a>'s gigantic styles file, I use <a target:"blank" href=" https://purgecss.com">PurgeCSS</a></p>
 <p>Finally, I want to recognize the <a target:"blank" href="https://www.youtube.com/watch?v=1kNwZbRiVcQ">BluueWeb</a> video that guided me to do some things, since I had not used Boostrap for more than a year.</p>
+
+
+aos 
