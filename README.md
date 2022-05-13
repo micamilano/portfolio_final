@@ -33,7 +33,5 @@ I have specialized in the use of GIS and software for statistics, as well as rem
 <p>For animations use <a target:"blank" href="ttiefiles.com/search?q=map&category=animations">Lottie</a>, and to do my photo a cartonn <a target:"blank" href="https://www.cutout.pro/turn-selfie-into-cartoon-anime-comic?vsource=google109t&gclid=Cj0KCQjwyMiTBhDKARIsAAJ-9VsNwNJS4pO27yD2XkQdH_mHnck-Gewuw2RQ5Qk2AtthdIxXIcTKIJYaAi7kEALw_wcB">Cartoon Selfie.</a></p>
 <p>In other hand, I'm not a front-end developer so, to do this I decided to use <a target:"blank" href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Boostrap.</a> Which to modify the styles uses <a target:"blank" href="https://nodejs.org/es/">Node.JS</a> and in parallel <a target:"blank" href="https://sass-lang.com">Sass.</a></p>
 <p>To shrink <a target:"blank" href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Boostrap</a>'s gigantic styles file, I use <a target:"blank" href=" https://purgecss.com">PurgeCSS</a></p>
+<p>Iuse <a target:"blank" href="https://www.youtube.com/watch?v=1kNwZbRiVcQ">AOS</a> for animation effects</p>
 <p>Finally, I want to recognize the <a target:"blank" href="https://www.youtube.com/watch?v=1kNwZbRiVcQ">BluueWeb</a> video that guided me to do some things, since I had not used Boostrap for more than a year.</p>
-
-
-aos 
