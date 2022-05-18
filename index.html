@@ -30,7 +30,7 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
-<body>
+<body data-bs-spy="scroll">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md fixed-top navbar-light bg-success">
@@ -71,7 +71,7 @@
                         analysis.</p>
                     <div>
                         <button type="button" class="btn btn-lg btn-outline-secondary border-radius-lg"
-                            data-bs-toggle="button" autocomplete="off" aria-pressed="true"><a href="#contact"
+                            data-bs-toggle="button" autocomplete="off" aria-pressed="true"><a href="#contact" aria-current="page"
                                 class="text-reset text-uppercase">Contact me</a></button>
                     </div>
                 </div>
@@ -134,12 +134,11 @@
                         <div class="image-wrapper">
                             <img src="./files/portfolio/heinz2.png" class="img-fluid" alt="portfolio">
                         </div>
-                        <h3>Profesional Foundation to Transport</h3>
+                        <h3>Kraft Heinz</h3>
                         <hr>
-                        <p class="lead">This web site to FPT (Fundacion Profesional para el Transporte) join all the
-                            necesary information to the transport chofer needs. It was did in collaboration with</p>
+                        <p class="lead">This is a simple map that I made for two reasons: first, I love ketchup, second, I wanted to use <strong class="bold">MMQgis</strong>, a plugin for network analysis. You can read my LinkedIn post about the plugin, along with some facts from Heinz, clicking below.</p>
                         <button type="button" class="btn btn-outline-secondary my-2" data-bs-toggle="button"
-                            autocomplete="off" aria-pressed="true"><a href="https://fpt.org.ar" target="_blank"
+                            autocomplete="off" aria-pressed="true"><a href="https://drive.google.com/file/d/17eTcJkkD6snD23S1lCDo82ens3ypWCG4/view?usp=sharing" target="_blank"
                                 class="text-reset">View</a></button>
                     </div>
                 </div>
@@ -298,9 +297,11 @@
                 <p class="lead mx-3 my-3"><a class="text-reset"
                         href="mailto:micaa.milano@gmail.com">micaa.milano@gmail.com</a>
                 </p>
-                <button type="button" class="btn border-radius-lg btn-outline-success  my-1" data-bs-toggle="button"
-                    aria-pressed="true">Send
-                    me an email</button>
+                <button type="button" class="btn border-radius-lg btn-outline-success my-1" data-bs-toggle="button"
+                    aria-pressed="true"><a class="text-reset"
+                    href="mailto:micaa.milano@gmail.com">Send
+                    me an email</a>
+                    </button>
             </div>
         </div>
     </div>
@@ -331,16 +332,11 @@
             background="transparent" speed="1" style="width: 100%; height: auto;" hover loop></lottie-player>
         </div> -->
 
-    <script src="./js/bootstrap.min.js"></script>
+<!--     <script src="./js/bootstrap.min.js"></script>
+ -->    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-
-        var myCarousel = document.querySelector('#myCarousel')
-        var carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 2000,
-            wrap: false
-        })
     </script>
 </body>
 
