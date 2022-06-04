@@ -11,6 +11,11 @@ body > .container-fluid {
   min-height: 90vh;
 }
 
+#home{
+  background-image: url(/files/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
+}
+
 /* portfolio */
 .project .image-wrapper {
   overflow: hidden;
@@ -830,10 +835,6 @@ button:not(:disabled),
   0% {
     background-position-x: 1rem;
   }
-}
-
-.carousel {
-  position: relative;
 }
 
 /* rtl:begin:ignore */
