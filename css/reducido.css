@@ -7,15 +7,14 @@ body > .container-fluid {
   min-height: max-content;
 }
 
-#home{
-  background-image: url(/files/backgroundhome.jpg);
-  background-size: cover;
-}
-
 #home > div > .row {
   min-height: 90vh;
 }
 
+#home {
+  background-image: url(../files/about_me/backgroundhome.jpg);
+  background-size: cover;
+}
 
 /* portfolio */
 .project .image-wrapper {
@@ -39,6 +38,16 @@ body > .container-fluid {
   max-height: 1000px;
 }
 
+/* .social-links{
+    width: 36px;
+    height: 36px;
+    background-color: $secondary;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+} */
 #contact > div > .row {
   min-height: 70vh;
 }
@@ -65,14 +74,14 @@ body > .container-fluid {
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
-  --bs-gray: #6c757d;
+  --bs-gray: #18202d7a;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
+  --bs-gray-600: #18202d7a;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
@@ -340,7 +349,7 @@ button:not(:disabled),
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #18202d7a;
 }
 
 .blockquote-footer::before {
@@ -917,6 +926,27 @@ button:not(:disabled),
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.top-50 {
+  top: 50% !important;
+}
+
+.start-50 {
+  left: 50% !important;
+}
+
+.translate-middle {
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
 }
 
 .border-bottom {
