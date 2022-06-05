@@ -7,14 +7,15 @@ body > .container-fluid {
   min-height: max-content;
 }
 
+#home{
+  background-image: url(/files/backgroundhome.jpg);
+  background-size: cover;
+}
+
 #home > div > .row {
   min-height: 90vh;
 }
 
-#home{
-  background-image: url(/files/nasa-Q1p7bh3SHj8-unsplash.jpg);
-  background-size: cover;
-}
 
 /* portfolio */
 .project .image-wrapper {
@@ -38,16 +39,6 @@ body > .container-fluid {
   max-height: 1000px;
 }
 
-/* .social-links{
-    width: 36px;
-    height: 36px;
-    background-color: $secondary;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    font-size: 18px;
-} */
 #contact > div > .row {
   min-height: 70vh;
 }
